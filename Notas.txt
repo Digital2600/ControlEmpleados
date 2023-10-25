@@ -1,0 +1,8 @@
+control de asistencia de empleados
+1 ) Modulos
+2)Alta y baja de empleados
+3) Productividad del empleado(meticas?)
+4) Informes semananales mensuales
+5) Monto de la hora extra , monto de la hora normal doble turno feriado 
+6) Agregar facturacion
+7)

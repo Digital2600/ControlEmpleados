@@ -1,0 +1,50 @@
+<form action="show_data.html" target ="_blanck">
+	<fieldset>
+		<legend>Datos Personales</legend>
+		<label for = "firstname">Nombre: </label>
+		<input size="30" type ="text" name ="firstname" placeholder ="Ingrese el nombre aqui...">
+		<label for = "lastname">Apellido: </label>
+		<input size="30" type="text" name ="lastname" placeholder = "Ingresar el apellido aqui...">
+		<br><br>
+		<label for="street">Direccion: </label>
+		<input type="text" name ="address" placeholder="Ingrese la direccion aqui...">
+		<label for="city">Ciudad: </label>
+		<input type="text" name ="city" value ="Ingrese la ciudad aqui...">
+		<br><br>
+		<label for ="codigo postal">Código Postal: </label>
+		<input type ="text" name ="zipcode" placeholder="Ingrese el código postal aquí...">
+		<label for="telefono">Telefono: </label>
+		<input type="tel" name="telefono" placeholder="Ingrese el telefono aqui...">
+		<br><br>
+		<label for ="BirthDate">Fecha Nac.(mm/dd/yyyy): </label>
+		<input type="date" name="birthdate">
+		<p>Género(Radio)
+			<input type="radio" name= "gender" value ="hombre" checked>Hombre
+			<input type="radio" name= "gender" value ="mujer" checked>Mujer
+			<input type="radio" name= "gender" value ="hombre" checked>Otro
+		</p>	
+		</fieldset>
+		<p> Items: (checkbox)
+			<input type="checkbox" name="items1" value="1">1
+			<input type="checkbox" name="items2" value="2">2
+			<input type="checkbox" name="items3" value="3">3
+			<input type="checkbox" name="items4" value="4">4
+		</p>
+		<label for="Otros Items">Otros items: (Select)</label>
+		<select id ="otros_items" name ="otros_items">
+			<option value ="otro_item1"> Otro Item 1</option>
+			<option value ="otro_item2"> Otro Item 2</option>
+			<option value ="otro_item3"> Otro Item 3</option>
+			<option value ="otro_item4"> Otro Item 4</option>
+		</select>
+		<br>
+		<label for="comentarios">Comentarios: </label><textare name="comentarios" rows="5" cols="30"></textarea>
+		<br><br>
+		<input type="submit" value ="Enviar">
+		<button type="reset"> Reset</button>
+		</form>
+		<p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina"show_data.html"</p>	
+
+nsur 
+I'm not a robot
+IANAR
